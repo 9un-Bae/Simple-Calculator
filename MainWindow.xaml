@@ -1,0 +1,49 @@
+﻿<Window x:Class="SimpleCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="600
+        ">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Border BorderThickness="3" BorderBrush="LightSalmon" Background="DarkSeaGreen" Grid.ColumnSpan="2" />
+        <!--Title-->
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="40" FontWeight="Bold" Width="340" Content="Simple Calculator" Height="60" Grid.ColumnSpan="2"/>
+
+        <!--Header for input box-->
+        <Label FontSize="15" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="1" Margin="30,201,238,545" Content="1st Number" />
+        <Label FontSize="15" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="1" Margin="247,201,21,544" Content="2nd Number" RenderTransformOrigin="0.5,0.5" >
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+        <!--Number input boxes-->
+        <TextBox x:Name="TxtNum1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" TextAlignment="Center" Margin="30,164,238,430" Height="40" Text="" TextChanged="OperationChanged" BorderThickness="2" BorderBrush="LightSalmon" />
+        <TextBox x:Name="TxtNum2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" TextAlignment="Center" Margin="247,239,21,505" Height="40" Text="" TextChanged="OperationChanged" BorderThickness="2" BorderBrush="LightSalmon" />
+
+        <!--Choose arithmetic operation-->
+        <ComboBox x:Name="combo" Margin="464,239,16,505" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" FontSize="15" SelectionChanged="OperationChanged" SelectedIndex="0" Height="40" Width="120" Grid.ColumnSpan="2">
+            <ComboBoxItem Content="Add"/>
+            <ComboBoxItem Content="Subtract"/>
+            <ComboBoxItem Content="Multiply"/>
+            <ComboBoxItem Content="Divide"/>
+        </ComboBox>
+
+        <!--Result-->
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="25" FontWeight="Bold" Width="115" Margin="136,392,229,342" Content="Result =" />
+        <Label x:Name ="LblResult" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="25" FontWeight="Bold" Width="200" Height="43" Margin="259,392,21,349" Background="White" BorderThickness="2" BorderBrush="LightSalmon" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.AssemblyReference.cache
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\App.g.cs
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator_MarkupCompile.cache
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator_MarkupCompile.lref
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\MainWindow.baml
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator.g.resources
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator.Properties.Resources.resources
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.GenerateResource.cache
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+C:\Users\13109\Documents\MSSA\Projects\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
